@@ -16,7 +16,7 @@ export PS1="[\u@dev \W]\$ "
 export EDITOR=vim
 
 # Go envs
-export GOVERSION=go1.14.4
+export GOVERSION=go1.14.6
 export GO_INSTALL_DIR=$HOME/go
 export GOROOT=$GO_INSTALL_DIR/$GOVERSION
 export GOPATH=$WORKSPACE/golang
