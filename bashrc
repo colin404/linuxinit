@@ -29,7 +29,7 @@ export GOPRIVATE=github.com
 export GOWORK="$WORKSPACE/golang/src"
 
 # PATH env
-export PATH=$GOROOT/bin:$GOPATH/bin:$PATH:/usr/local/bin:
+export PATH=$GOROOT/bin:$GOPATH/bin:$PATH:/usr/local/bin::/usr/libexec/git-core
 
 # Other envs
 export ETCDCTL_API=3
