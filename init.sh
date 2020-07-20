@@ -17,7 +17,7 @@ cp -f bashrc $HOME/.bashrc
 echo "# 3. Copy .bash_profile"
 cp -f bash_profile $HOME/.bash_profile
 
-
+echo
 cat << 'EOF'
 To completely finish the linux configure, you may need to configure the following items:
 
